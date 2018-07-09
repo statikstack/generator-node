@@ -1,9 +1,9 @@
 {
-  "name": "generator-statikstack",
+  "name": "@statikstack/generator-node",
   "version": "1.0.0",
   "description": "Yeoman generator for Node projects.",
   "author": "Statik <statikstack@gmail.com>",
-  "homepage": "https://github.com/statikstack/generator-statikstack#readme",
+  "homepage": "https://github.com/statikstack/generator-node#readme",
   "keywords": [
     "yeoman",
     "yeoman-generator"
@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/statikstack/generator-statikstack.git"
+    "url": "https://github.com/statikstack/generator-node.git"
   },
   "bugs": {
-    "url": "https://github.com/statikstack/generator-statikstack/issues"
+    "url": "https://github.com/statikstack/generator-node/issues"
   },
   "dependencies": {
     "yeoman-generator": "3.0.0"
