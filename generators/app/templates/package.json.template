@@ -1,0 +1,24 @@
+{
+  "name": "<%= project %>",
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "author": "Statik <statikstack@gmail.com>",
+  "homepage": "https://github.com/statikstack/<%= project %>#readme",
+  "keywords": ["node"],
+  "main": "src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statikstack/<%= project %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/statikstack/<%= project %>/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
