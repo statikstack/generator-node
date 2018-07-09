@@ -1,0 +1,33 @@
+{
+  "name": "generator-statikstack",
+  "version": "1.0.0",
+  "description": "Yeoman generator for Node projects.",
+  "author": "Statik <statikstack@gmail.com>",
+  "homepage": "https://github.com/statikstack/generator-statikstack#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statikstack/generator-statikstack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/statikstack/generator-statikstack/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "5.0.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.13.7"
+  },
+  "license": "MIT"
+}
